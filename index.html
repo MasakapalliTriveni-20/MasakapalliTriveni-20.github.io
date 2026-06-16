@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Triveni | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fc;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      margin: 25px 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 30px;
+    }
+
+    h1 {
+      color: #2563eb;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #1e40af;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #1f2937;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .links a,
+    .project-links a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-top: 10px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .links a:hover,
+    .project-links a:hover {
+      background: #1d4ed8;
+    }
+
+    .skill-group {
+      margin-bottom: 15px;
+    }
+
+    .skill-group strong {
+      color: #111827;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 30px 0;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .links a,
+      .project-links a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card hero">
+      <h1>M. Triveni</h1>
+
+      <p class="subtitle">
+        B.Tech CSE (AI & ML) Student | ANITS, Visakhapatnam
+      </p>
+
+      <p>
+        Passionate about Full-Stack Development, Artificial Intelligence, and building user-friendly web applications.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/MasakapalliTriveni-20" target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/masakapalli-triveni-8a6971358/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>About Me</h2>
+
+      <p>
+        I am a B.Tech student specializing in Computer Science with Artificial Intelligence and Machine Learning at ANITS, Visakhapatnam.
+      </p>
+
+      <p>
+        I enjoy building full-stack applications, exploring AI-driven solutions, and solving real-world problems through technology. I am continuously learning modern web technologies and improving my software development skills.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+
+      <div class="skill-group">
+        <strong>Programming Languages:</strong> Python, Java, JavaScript
+      </div>
+
+      <div class="skill-group">
+        <strong>Frontend:</strong> React.js, HTML5, CSS3, Vite
+      </div>
+
+      <div class="skill-group">
+        <strong>Backend:</strong> FastAPI, REST APIs
+      </div>
+
+      <div class="skill-group">
+        <strong>Database & Cloud:</strong> MongoDB, Cloudinary
+      </div>
+
+      <div class="skill-group">
+        <strong>Tools:</strong> Git, GitHub, Axios, Netlify, VS Code
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+
+      <h3>Student Collaboration Hub</h3>
+
+      <p>
+        Developed a full-stack collaboration platform that enables students to share posts, announcements, questions, study materials, and other academic content in a centralized digital space.
+      </p>
+
+      <p>
+        Implemented secure user authentication, allowing students to create accounts, log in safely, create and manage posts, upload files, and interact with peers through comments and discussions.
+      </p>
+
+      <p>
+        Designed a scalable architecture with separate frontend and backend services, integrating cloud-based file storage and RESTful APIs to ensure seamless communication and efficient data management.
+      </p>
+
+      <p>
+        <strong>Architecture:</strong> React Frontend → Axios API Calls → FastAPI Backend → MongoDB Database → Cloudinary File Storage
+      </p>
+
+      <p>
+        <strong>Tech Stack:</strong> React.js, FastAPI, Python, JavaScript, Axios, MongoDB, Cloudinary, HTML5, CSS3, REST APIs, Git, GitHub, Netlify
+      </p>
+
+      <div class="project-links">
+        <a href="https://frontendsch.netlify.app/" target="_blank">Live Demo</a>
+
+        <a href="https://github.com/MasakapalliTriveni-20/frontend-SCH" target="_blank">Frontend GitHub</a>
+
+        <a href="https://github.com/MasakapalliTriveni-20/backend-SCH" target="_blank">Backend GitHub</a>
+      </div>
+
+      <hr>
+
+      <h3>Budget Tracker</h3>
+
+      <p>
+        Developed a responsive expense management application that helps users track daily expenses, categorize spending, and maintain financial records efficiently.
+      </p>
+
+      <p>
+        Implemented features such as expense categorization, balance tracking, and transaction management through a simple and user-friendly dashboard.
+      </p>
+
+      <p>
+        <strong>Tech Stack:</strong> React.js, Vite, JavaScript, HTML5, CSS3, Git, GitHub, Netlify
+      </p>
+
+      <div class="project-links">
+        <a href="https://trivenibudgettracker.netlify.app/dashboard" target="_blank">Live Demo</a>
+
+        <a href="https://github.com/MasakapalliTriveni-20/budget_tracker" target="_blank">GitHub</a>
+      </div>
+
+      <hr>
+
+      <h3>Task Manager App</h3>
+
+      <p>
+        Built an interactive web application for managing tasks and improving daily productivity through an intuitive and user-friendly interface.
+      </p>
+
+      <p>
+        Implemented functionalities for creating, editing, updating, and deleting tasks while focusing on usability and efficient task management.
+      </p>
+
+      <p>
+        <strong>Tech Stack:</strong> JavaScript, HTML5, CSS3, Git, GitHub
+      </p>
+
+      <div class="project-links">
+        <a href="https://github.com/MasakapalliTriveni-20/TaskManagerApp/tree/main/TaskManagerApp-master" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+
+      <p>
+        Feel free to connect with me through GitHub or LinkedIn.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/MasakapalliTriveni-20" target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/masakapalli-triveni-8a6971358/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 M. Triveni. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
